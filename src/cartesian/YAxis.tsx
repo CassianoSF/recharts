@@ -27,6 +27,7 @@ interface YAxisProps extends BaseAxisProps {
   interval?: AxisInterval;
   reversed?: boolean;
   tickMargin?: number;
+  angle?: number;
 }
 
 export type Props = Omit<SVGProps<SVGElement>, 'scale'> & YAxisProps;
